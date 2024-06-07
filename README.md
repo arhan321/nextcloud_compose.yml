@@ -8,8 +8,11 @@ mysql -u root -p
 
 contoh perintah nya jika nama user nya jhonss : 
 CREATE DATABASE IF NOT EXISTS nextcloud;
+
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'jhonss'@'%' IDENTIFIED BY 'Djony';
+
 FLUSH PRIVILEGES;
+
 EXIT;
 
 setelah itu pasti akan berhasil !!!!!!!!!
