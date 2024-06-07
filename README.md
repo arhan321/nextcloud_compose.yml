@@ -7,6 +7,7 @@ setelah itu up jika saat pendaftaran pertama error silahakn masuk ke container M
 mysql -u root -p
 
 contoh perintah nya jika nama user nya jhonss : 
+
 CREATE DATABASE IF NOT EXISTS nextcloud;
 
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'jhonss'@'%' IDENTIFIED BY 'Djony';
